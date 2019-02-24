@@ -24,42 +24,42 @@ To use this plugin:
 In your flutter project add the dependency:
 
 ```yalm
-    dependencies:
-        ...
-        animated_floatactionbuttons: 0.0.1
+dependencies:
+    ...
+    animated_floatactionbuttons: 0.0.1
 ```
 
 ## Example
 
 ```dart
-    Widget float1() {
-        return Container(
-          child: FloatingActionButton(
-            onPressed: null,
-            tooltip: 'First button',
-            child: Icon(Icons.add),
-          ),
-        );
-    }
-    Widget float2() {
-        return Container(
-          child: FloatingActionButton(
-            onPressed: null,
-            tooltip: 'Second button',
-            child: Icon(Icons.add),
-          ),
-        );
-    }
-    ...
-    Scaffold(
-        floatingActionButton: AnimatedFloatingActionButton(
-            //Fab list
-            fabButtons: <Widget>[
-                float1(), float2()
-            ],
-            colorStartAnimation: Colors.Blue,
-            colorEndAnimation: Colors.Red,
-            animatedIconData: AnimatedIcons.menu_close //To principal button
-        ),
-    )
+Widget float1() {
+    return Container(
+      child: FloatingActionButton(
+        onPressed: null,
+        tooltip: 'First button',
+        child: Icon(Icons.add),
+      ),
+    );
+}
+Widget float2() {
+    return Container(
+      child: FloatingActionButton(
+        onPressed: null,
+        tooltip: 'Second button',
+        child: Icon(Icons.add),
+      ),
+    );
+}
+...
+Scaffold(
+    floatingActionButton: AnimatedFloatingActionButton(
+        //Fab list
+        fabButtons: <Widget>[
+            float1(), float2()
+        ],
+        colorStartAnimation: Colors.Blue,
+        colorEndAnimation: Colors.Red,
+        animatedIconData: AnimatedIcons.menu_close //To principal button
+    ),
+)
 ```
