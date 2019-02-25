@@ -1,5 +1,6 @@
 # animated_floatactionbuttons
 
+This package is based on Agung Surya's tutorial. You can visit his post for more technical information about the package.
 [https:&#x2F;&#x2F;medium.com&#x2F;@agungsurya&#x2F;create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc](https://medium.com/@agungsurya/create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc)
 
 ## Getting Started
@@ -26,7 +27,7 @@ In your flutter project add the dependency:
 ```yalm
 dependencies:
     ...
-    animated_floatactionbuttons: ^0.0.2
+    animated_floatactionbuttons: ^0.1.0
 ```
 
 ## Example

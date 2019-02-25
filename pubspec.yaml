@@ -1,6 +1,6 @@
 name: animated_floatactionbuttons
-description: Allows you to create a collapsible list of float buttons. Based on Agung Surya's tutorial in https://medium.com/@agungsurya/create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc
-version: 0.0.2
+description: Allows you to create a collapsible list of float buttons. Based on Agung Surya's tutorial.
+version: 0.1.0
 author: Jhonathan Borda Moreno <jhontona@gmail.com>
 homepage: https://github.com/jhontona/animated-floatbuttons
 
