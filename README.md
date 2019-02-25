@@ -1,6 +1,6 @@
 # animated_floatactionbuttons
 
-https:&#x2F;&#x2F;medium.com&#x2F;@agungsurya&#x2F;create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc
+[https:&#x2F;&#x2F;medium.com&#x2F;@agungsurya&#x2F;create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc](https://medium.com/@agungsurya/create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc)
 
 ## Getting Started
 
@@ -32,6 +32,9 @@ dependencies:
 ## Example
 
 ```dart
+//Import package
+import 'package:animated_floatactionbuttons/animated_floatactionbuttons.dart';
+...
 Widget float1() {
     return Container(
       child: FloatingActionButton(
@@ -63,3 +66,4 @@ Scaffold(
     ),
 )
 ```
+Complete [example here](https://github.com/jhontona/animated-floatbuttons/tree/master/example)

@@ -1,24 +1,21 @@
 library animated_floatactionbuttons;
+
 import 'package:animated_floatactionbuttons/transform_float_button.dart';
 import 'package:flutter/material.dart';
 
 class AnimatedFloatingActionButton extends StatefulWidget {
-
   final List<Widget> fabButtons;
   final Color colorStartAnimation;
   final Color colorEndAnimation;
   final AnimatedIconData animatedIconData;
 
-  AnimatedFloatingActionButton
-  (
-    {
-      Key key,
+  AnimatedFloatingActionButton(
+      {Key key,
       this.fabButtons,
       this.colorStartAnimation,
       this.colorEndAnimation,
-      this.animatedIconData
-    }
-  ) : super(key: key);
+      this.animatedIconData})
+      : super(key: key);
 
   @override
   _AnimatedFloatingActionButtonState createState() =>
@@ -39,10 +36,10 @@ class _AnimatedFloatingActionButtonState
   @override
   initState() {
     _animationController =
-    AnimationController(vsync: this, duration: Duration(milliseconds: 500))
-      ..addListener(() {
-        setState(() {});
-      });
+        AnimationController(vsync: this, duration: Duration(milliseconds: 500))
+          ..addListener(() {
+            setState(() {});
+          });
     _animateIcon =
         Tween<double>(begin: 0.0, end: 1.0).animate(_animationController);
     _buttonColor = ColorTween(
@@ -99,16 +96,13 @@ class _AnimatedFloatingActionButtonState
     );
   }
 
-  List<Widget> _setFabButtons()
-  {
+  List<Widget> _setFabButtons() {
     List<Widget> processButtons = List<Widget>();
-    for(int i = 0; i < widget.fabButtons.length; i++){
-      processButtons.add(
-          TransformFloatButton(
-            floatButton: widget.fabButtons[i],
-            translateValue: _translateButton.value * (widget.fabButtons.length - i),
-          )
-      );
+    for (int i = 0; i < widget.fabButtons.length; i++) {
+      processButtons.add(TransformFloatButton(
+        floatButton: widget.fabButtons[i],
+        translateValue: _translateButton.value * (widget.fabButtons.length - i),
+      ));
     }
     processButtons.add(toggle());
     return processButtons;
