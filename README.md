@@ -61,8 +61,8 @@ Scaffold(
         fabButtons: <Widget>[
             float1(), float2()
         ],
-        colorStartAnimation: Colors.Blue,
-        colorEndAnimation: Colors.Red,
+        colorStartAnimation: Colors.blue,
+        colorEndAnimation: Colors.red,
         animatedIconData: AnimatedIcons.menu_close //To principal button
     ),
 )
