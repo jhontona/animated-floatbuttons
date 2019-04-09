@@ -15,6 +15,7 @@ class _ExamplePageState extends State<ExamplePage> {
     return Container(
       child: FloatingActionButton(
         onPressed: null,
+        heroTag: "Add",
         tooltip: 'Add',
         child: Icon(Icons.add),
       ),
@@ -25,6 +26,7 @@ class _ExamplePageState extends State<ExamplePage> {
     return Container(
       child: FloatingActionButton(
         onPressed: null,
+        heroTag: "Image",
         tooltip: 'Image',
         child: Icon(Icons.image),
       ),
@@ -35,6 +37,7 @@ class _ExamplePageState extends State<ExamplePage> {
     return Container(
       child: FloatingActionButton(
         onPressed: null,
+        heroTag: "Inbox",
         tooltip: 'Inbox',
         child: Icon(Icons.inbox),
       ),
