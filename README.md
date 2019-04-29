@@ -40,6 +40,7 @@ Widget float1() {
     return Container(
       child: FloatingActionButton(
         onPressed: null,
+        heroTag: "btn1",
         tooltip: 'First button',
         child: Icon(Icons.add),
       ),
@@ -49,6 +50,7 @@ Widget float2() {
     return Container(
       child: FloatingActionButton(
         onPressed: null,
+        heroTag: "btn2",
         tooltip: 'Second button',
         child: Icon(Icons.add),
       ),
@@ -61,8 +63,8 @@ Scaffold(
         fabButtons: <Widget>[
             float1(), float2()
         ],
-        colorStartAnimation: Colors.Blue,
-        colorEndAnimation: Colors.Red,
+        colorStartAnimation: Colors.blue,
+        colorEndAnimation: Colors.red,
         animatedIconData: AnimatedIcons.menu_close //To principal button
     ),
 )
