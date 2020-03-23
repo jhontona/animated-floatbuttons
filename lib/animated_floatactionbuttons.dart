@@ -7,6 +7,7 @@ class AnimatedFloatingActionButton extends StatefulWidget {
   final List<Widget> fabButtons;
   final Color colorStartAnimation;
   final Color colorEndAnimation;
+  final Color colorIcon;
   final AnimatedIconData animatedIconData;
 
   AnimatedFloatingActionButton(
@@ -14,6 +15,7 @@ class AnimatedFloatingActionButton extends StatefulWidget {
       this.fabButtons,
       this.colorStartAnimation,
       this.colorEndAnimation,
+      this.colorIcon,
       this.animatedIconData})
       : super(key: key);
 
@@ -91,6 +93,7 @@ class _AnimatedFloatingActionButtonState
         child: AnimatedIcon(
           icon: widget.animatedIconData,
           progress: _animateIcon,
+          color: widget.colorIcon,
         ),
       ),
     );
