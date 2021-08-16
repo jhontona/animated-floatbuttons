@@ -2,7 +2,10 @@ import 'package:animated_floatactionbuttons/animated_floatactionbuttons.dart';
 import 'package:flutter/material.dart';
 
 class ExamplePage extends StatefulWidget {
-  ExamplePage({Key key, this.title}) : super(key: key);
+  ExamplePage({
+    Key? key,
+    required this.title,
+  }) : super(key: key);
 
   final String title;
 
@@ -11,11 +14,16 @@ class ExamplePage extends StatefulWidget {
 }
 
 class _ExamplePageState extends State<ExamplePage> {
+  final GlobalKey<AnimatedFloatingActionButtonState> key =
+      GlobalKey<AnimatedFloatingActionButtonState>();
+
   Widget add() {
     return Container(
       child: FloatingActionButton(
-        onPressed: null,
-        heroTag: "Add",
+        onPressed: () {
+          key.currentState?.closeFABs();
+        },
+        heroTag: "Image",
         tooltip: 'Add',
         child: Icon(Icons.add),
       ),
@@ -52,6 +60,7 @@ class _ExamplePageState extends State<ExamplePage> {
       ),
       body: Container(),
       floatingActionButton: AnimatedFloatingActionButton(
+        key: key,
         fabButtons: <Widget>[
           add(),
           image(),
