@@ -36,6 +36,9 @@ dependencies:
 //Import package
 import 'package:animated_floating_buttons/animated_floating_buttons.dart';
 ...
+      when you want to close the menu you have to create 
+      final GlobalKey<AnimatedFloatingActionButtonState> key =GlobalKey<AnimatedFloatingActionButtonState>();
+      and then assign it to the our widget library
 Widget float1() {
     return Container(
       child: FloatingActionButton(
@@ -46,6 +49,7 @@ Widget float1() {
       ),
     );
 }
+
 Widget float2() {
     return Container(
       child: FloatingActionButton(
@@ -63,6 +67,7 @@ Scaffold(
         fabButtons: <Widget>[
             float1(), float2()
         ],
+        key : key,
         colorStartAnimation: Colors.blue,
         colorEndAnimation: Colors.red,
         animatedIconData: AnimatedIcons.menu_close //To principal button
@@ -72,5 +77,8 @@ Scaffold(
 Complete [example here](https://github.com/nabil-hfz/animated-floatbuttons/tree/master/example)
 
 ## Issues
+
+    Be aware that you have to pass heroTag parameter to every new fab you create 
+    Otherwise you will get an exciption.
 
 

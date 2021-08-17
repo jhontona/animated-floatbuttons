@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Update the package to null safety version.&#10;# Creating the example folder from scratch.&#10;# Adding some new arguments to improve the package.&#10;# Adding opacity widget to other FABs.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/example.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/example.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/animated_floatactionbuttons.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/animated_floating_buttons.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629152900410</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content.">
+      <created>1629228953514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629228953514</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -205,6 +206,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor code" />
@@ -212,7 +214,8 @@
     <MESSAGE value="Add example&#10;Update README" />
     <MESSAGE value="Update version to publish in dart packages" />
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Update the package to null safety version.&#10;# Creating the example folder from scratch.&#10;# Adding some new arguments to improve the package.&#10;# Adding opacity widget to other FABs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task - # Rewriting the package:&#10;&#10;# Update the package to null safety version.&#10;# Creating the example folder from scratch.&#10;# Adding some new arguments to improve the package.&#10;# Adding opacity widget to other FABs." />
+    <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/animated_floatactionbuttons_test.dart" />
