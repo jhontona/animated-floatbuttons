@@ -36,9 +36,9 @@ dependencies:
 //Import package
 import 'package:animated_floating_buttons/animated_floating_buttons.dart';
 ...
-      when you want to close the menu you have to create 
+      /// when you want to close the menu you have to create 
       final GlobalKey<AnimatedFloatingActionButtonState> key =GlobalKey<AnimatedFloatingActionButtonState>();
-      and then assign it to the our widget library
+      /// and then assign it to the our widget library
 Widget float1() {
     return Container(
       child: FloatingActionButton(

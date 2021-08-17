@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
+    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629228953514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task - # Rewriting the package:&#10;&#10;# Editing readme file content.">
+      <created>1629229416220</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629229416220</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -215,7 +222,8 @@
     <MESSAGE value="Update version to publish in dart packages" />
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Update the package to null safety version.&#10;# Creating the example folder from scratch.&#10;# Adding some new arguments to improve the package.&#10;# Adding opacity widget to other FABs." />
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
+    <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/animated_floatactionbuttons_test.dart" />
