@@ -1,4 +1,4 @@
-import 'package:animated_floatactionbuttons/widgets/transform_float_button.dart';
+import 'package:animated_floating_buttons/widgets/transform_float_button.dart';
 import 'package:flutter/material.dart';
 
 class AnimatedFloatingActionButton extends StatefulWidget {

@@ -1,4 +1,4 @@
-# animated_floatactionbuttons
+# animated_floating_buttons
 
 This package is based on Agung Surya's tutorial. You can visit his post for more technical information about the package.
 [https:&#x2F;&#x2F;medium.com&#x2F;@agungsurya&#x2F;create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc](https://medium.com/@agungsurya/create-a-simple-animated-floatingactionbutton-in-flutter-2d24f37cfbcc)
@@ -14,9 +14,9 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
-##Screenshots
+## Screenshots
 
-<img src="screen.gif" height="300em" />
+<img src="screen.gif" height="400em" />
 
 ## Usage
 
@@ -27,14 +27,14 @@ In your flutter project add the dependency:
 ```yalm
 dependencies:
     ...
-    animated_floatactionbuttons: ^0.1.0
+    animated_floating_buttons: ^0.0.1
 ```
 
 ## Example
 
 ```dart
 //Import package
-import 'package:animated_floatactionbuttons/animated_floatactionbuttons.dart';
+import 'package:animated_floating_buttons/animated_floating_buttons.dart';
 ...
 Widget float1() {
     return Container(
@@ -69,4 +69,8 @@ Scaffold(
     ),
 )
 ```
-Complete [example here](https://github.com/jhontona/animated-floatbuttons/tree/master/example)
+Complete [example here](https://github.com/nabil-hfz/animated-floatbuttons/tree/master/example)
+
+## Issues
+
+

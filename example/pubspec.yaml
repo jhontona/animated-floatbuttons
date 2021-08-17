@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  animated_floatactionbuttons:
+  animated_floating_buttons:
     path: ../
 
   # The following adds the Cupertino Icons font to your application.

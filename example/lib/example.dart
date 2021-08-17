@@ -1,4 +1,4 @@
-import 'package:animated_floatactionbuttons/animated_floatactionbuttons.dart';
+import 'package:animated_floating_buttons/animated_floating_buttons.dart';
 import 'package:flutter/material.dart';
 
 class ExamplePage extends StatefulWidget {
