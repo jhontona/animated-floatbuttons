@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Editing readme file content.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Editing readme file:&#10;&#10;# Changing a screenshot url." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629229545635</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task - # Editing readme file:&#10;&#10;# Changing a screenshot url.">
+      <created>1629293188115</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629293188115</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -232,7 +237,8 @@
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Update the package to null safety version.&#10;# Creating the example folder from scratch.&#10;# Adding some new arguments to improve the package.&#10;# Adding opacity widget to other FABs." />
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Renaming the library.&#10;# Adding licence file content." />
     <MESSAGE value="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
+    <MESSAGE value="Task - # Editing readme file:&#10;&#10;# Changing a screenshot url." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task - # Editing readme file:&#10;&#10;# Changing a screenshot url." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/animated_floatactionbuttons_test.dart" />
