@@ -16,7 +16,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Screenshots
 
-<img src="screen.gif" height="400em" />
+<img src="https://user-images.githubusercontent.com/44735062/129905710-c5a402f3-bf1d-44aa-87ef-689be3acb55a.gif" height="400em">
+
+
 
 ## Usage
 

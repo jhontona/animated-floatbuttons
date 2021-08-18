@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Editing readme file content." />
+    <list default="true" id="35cebf16-372d-4526-b8f2-497804ad8dc8" name="Default Changelist" comment="Task - # Rewriting the package:&#10;&#10;# Editing readme file content.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629229416220</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task - # Rewriting the package:&#10;&#10;# Editing readme file content.">
+      <created>1629229545635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629229545635</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
